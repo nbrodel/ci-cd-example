@@ -1,0 +1,16 @@
+body {
+    background: #000;
+}
+
+canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    display: block;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+    background: #101010;
+    box-shadow: 0 0 0 3px #191919;
+}
